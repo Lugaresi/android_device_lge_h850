@@ -37,7 +37,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal
 
-# Email not in AICP?!
-PRODUCT_PACKAGES += \
-    Email
-
